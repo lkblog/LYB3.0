@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  mvc:
+    async:
+      request-timeout:
+    static-path-pattern: /static/**
+  thymeleaf:
+    prefix:
+      classpath: /templates/
